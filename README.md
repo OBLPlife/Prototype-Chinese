@@ -10,7 +10,10 @@
 
 ## 游戏截图
 
-截图目录：[screenshots/](screenshots/)
+| | |
+| :---: | :---: |
+| ![游戏截图一](screenshots/20261122185115_1.jpg) | ![游戏截图二](screenshots/20261122185132_1.jpg) |
+| ![游戏截图三](screenshots/20261122185145_1.jpg) | ![游戏截图四](screenshots/20261122185153_1.jpg) |
 
 ## 安装与还原
 
