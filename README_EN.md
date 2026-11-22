@@ -10,7 +10,10 @@ The installer reads the player's local game resources and generates a Chinese lo
 
 ## Screenshots
 
-Screenshot directory: [screenshots/](screenshots/)
+| | |
+| :---: | :---: |
+| ![In-game screenshot 1](screenshots/20261122185115_1.jpg) | ![In-game screenshot 2](screenshots/20261122185132_1.jpg) |
+| ![In-game screenshot 3](screenshots/20261122185145_1.jpg) | ![In-game screenshot 4](screenshots/20261122185153_1.jpg) |
 
 ## Installation & Restoration
 
