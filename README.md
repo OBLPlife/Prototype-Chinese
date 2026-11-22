@@ -10,10 +10,16 @@
 
 ## 游戏截图
 
-| | |
-| :---: | :---: |
-| ![游戏截图一](screenshots/20261122185115_1.jpg) | ![游戏截图二](screenshots/20261122185132_1.jpg) |
-| ![游戏截图三](screenshots/20261122185145_1.jpg) | ![游戏截图四](screenshots/20261122185153_1.jpg) |
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="screenshots/20261122185115_1.jpg" alt="游戏截图 1" width="100%"></td>
+    <td align="center" width="50%"><img src="screenshots/20261122185132_1.jpg" alt="游戏截图 2" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="screenshots/20261122185145_1.jpg" alt="游戏截图 3" width="100%"></td>
+    <td align="center" width="50%"><img src="screenshots/20261122185153_1.jpg" alt="游戏截图 4" width="100%"></td>
+  </tr>
+</table>
 
 ## 安装与还原
 
