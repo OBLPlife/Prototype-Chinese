@@ -181,7 +181,8 @@ def source_archive(output):
     """Distribute authored source and translation tables; local builds regenerate all game data."""
     suffixes = {'.as', '.cpp', '.cs', '.def', '.h', '.java', '.js', '.json',
                 '.manifest', '.md', '.ps1', '.py', '.txt'}
-    entries = {'README.md': HERE / 'SOURCE.md', '.gitignore': HERE / 'repository.gitignore',
+    entries = {'README.md': PROJECT / 'README.md', 'README_EN.md': PROJECT / 'README_EN.md',
+               '.gitignore': HERE / 'repository.gitignore',
                '.gitattributes': HERE / 'repository.gitattributes'}
     for folder in ('catalog', 'licenses', 'runtime', 'src', 'tools', 'packaging'):
         for file in (PROJECT / folder).rglob('*'):
@@ -222,7 +223,7 @@ def finish(output, embed=None, bilingual=None):
         raise ValueError('Unexpected embedded Python build dependency')
     if bilingual is not None and not bilingual.is_file():
         raise FileNotFoundError(bilingual)
-    docs = HERE / 'README.md'
+    docs = PROJECT / 'README.md'
     source_archive(output / SOURCE_ZIP)
     shutil.copyfile(docs, output / docs.name)
     names = [EXE, SOURCE_ZIP, docs.name]
