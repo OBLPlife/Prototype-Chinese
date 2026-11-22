@@ -1,0 +1,19 @@
+{
+  "cjk_repository": "https://github.com/notofonts/noto-cjk/tree/Sans2.004/Sans/OTF/SimplifiedChinese",
+  "cjk_faces": {
+    "PrototypeTitlePC": "Bold",
+    "PrototypeBodyPC": "Medium",
+    "PrototypeSubtitle": "Regular"
+  },
+  "cjk_source_sha256": {
+    "Regular": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "Medium": "ca094f6b0001fb048ca39ddd797a0cdb0179e1e55c6561e111c49c3e6a61d7b7",
+    "Bold": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+  },
+  "latin_fallback": {
+    "NotoSans-Regular.ttf": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
+    "NotoSans-LICENSE.txt": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/LICENSE"
+  },
+  "license": "OFL-1.1",
+  "purpose": "Missing original-font diacritics in unchanged personal names; CJK remains Noto Sans CJK SC"
+}

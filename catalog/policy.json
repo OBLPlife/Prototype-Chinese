@@ -1,0 +1,48 @@
+{
+  "scope": "Full game localization, including UI, missions, upgrades, subtitles and Web of Intrigue",
+  "credits": "Translate headings, departments and job titles; preserve all personal names verbatim",
+  "real_world_companies_and_brands": "Preserve original English spelling, including Activision and Radical Entertainment",
+  "fictional_organizations": "Translate all in-universe companies, organizations and project names into consistent Chinese; Gentek is 基因科技. Preserve real-world credits company names under the separate credits rule.",
+  "computer_use": false,
+  "codename_punctuation": "游戏内用作代号的称呼统一使用中文双引号，如“宙斯”、“弃民”和“红冠”。完整呼号连同编号一起标注，如“幽灵十二号”。行动、计划的类别词放在引号外，如“防火带”行动。普通亲属称谓、地名及一般描述按原句语境处理。",
+  "automatic_game_launch": false,
+  "environment_texture_text": "Retain original lettering on street signs, advertisements and posters, as explicitly confirmed by user on 2026-11-13",
+  "coverage_rule": "Count each discovered text system independently. AudioDialogueSubtitle, text holders, GFX controls and player-visible script literals must be inventoried; untranslated or unintegrated entries cannot be reported as complete.",
+  "independence": {
+    "runtime_requires_modern_patch": false,
+    "required_baselines": [
+      "Steam English original + localization",
+      "Steam English original + modern patch + localization"
+    ],
+    "implementation": "Native localization resources plus a self-owned game-local entry for native UI memory support. No Modern loader/module prerequisite and no on-disk engine edits; unrelated XInput calls are forwarded unchanged to the absolute system DLL.",
+    "acceptance": "Validate actual play separately for both baselines; file installation checks do not establish gameplay acceptance"
+  },
+  "modern_labels": {
+    "PM_DISPLAY_MODE": "显示模式",
+    "PM_DISPLAY_MODE_FULLSCREEN": "全屏",
+    "PM_DISPLAY_MODE_BORDERLESS": "无边框全屏",
+    "PM_DISPLAY_MODE_WINDOWED": "窗口"
+  },
+  "geographical_names": "Use Chinese names for in-game textual place names and facilities, preferring established Chinese names for real places. Environmental texture lettering remains unchanged.",
+  "reviewed_terms": {
+    "EP": {
+      "english": "Evolution Points",
+      "zh": "进化点",
+      "source": "Official Prototype instruction manual; original UI explicitly expands EP (EVOLUTION POINTS)."
+    },
+    "CP_in_woi041_003": {
+      "zh": "目标地址已确认（按整句语境翻译）",
+      "source": "Original Spanish punto de recogida, Italian punto di raccolta, French une adresse in the same native subtitle object.",
+      "limit": "English full form is not given; do not assert an invented expansion or apply this interpretation to unrelated CP uses."
+    },
+    "D-CODE_units": {
+      "zh": "强化士兵",
+      "project_zh": "强化士兵计划",
+      "source": "Original woi106/109/112 describe the modified personnel and their project; other current catalog entries already use 强化士兵."
+    },
+    "Light_it_up_in_nis2-2_04": {
+      "zh": "引爆！",
+      "source": "Apartment ambush detonates a concealed bomb; this is scene-specific, not a global replacement for the phrase."
+    }
+  }
+}

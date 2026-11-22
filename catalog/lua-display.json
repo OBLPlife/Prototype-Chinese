@@ -1,0 +1,188 @@
+[
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan\\manhattan_fig.p3d.rz",
+    "source_sha256": "0841d2847d52f2a3b9002840955494d4296715a62952a407a4c10b75152f7067",
+    "lua_offset": 269760,
+    "source": "NEED MISSION FAILURE REASON",
+    "zh": "未提供任务失败原因",
+    "evidence": "lua-use-context.json index 373"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 175104,
+    "source": "Mission Objective Failure",
+    "zh": "任务目标未能达成!",
+    "evidence": "lua-use-context.json index 368"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 175104,
+    "source": "Mission Needs Proper Failure Hint",
+    "zh": "未提供任务失败提示信息",
+    "evidence": "lua-use-context.json index 367"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 176144,
+    "source": "MISSION COMPLETE",
+    "zh": "任务已完成!",
+    "evidence": "lua-use-context.json index 352"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\startup_fig.p3d.rz",
+    "source_sha256": "1a759f0fdb765ddbe8d01f85c6469486033f85cf6327c9cb7e608f97984e7288",
+    "lua_offset": 3103652,
+    "source": "CIVILIAN CASUALTIES: %d\nINFECTED CASUALTIES: %d\nMILITARY CASUALTIES: %d. EXPENSE: %d",
+    "zh": "平民伤亡数： %d\n感染者伤亡数： %d\n军人伤亡数：%d；总损失：%d",
+    "evidence": "lua-use-context.json index 164"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan\\manhattan_fig.p3d.rz",
+    "source_sha256": "0841d2847d52f2a3b9002840955494d4296715a62952a407a4c10b75152f7067",
+    "lua_offset": 81248,
+    "source": "Hive Health",
+    "zh": "巢穴生命值",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_HIVE_HP",
+    "replacement": "$ZH_HIVE_HP"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan\\manhattan_fig.p3d.rz",
+    "source_sha256": "0841d2847d52f2a3b9002840955494d4296715a62952a407a4c10b75152f7067",
+    "lua_offset": 260140,
+    "source": "MainMission tried to start when one already running",
+    "zh": "已有主线任务正在进行，无法重复开始。",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_MISSION_ALREADY_ACTIVE_________________________",
+    "replacement": "$ZH_MISSION_ALREADY_ACTIVE_________________________"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 47424,
+    "source": "Hive Health",
+    "zh": "巢穴生命值",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_HIVE_HP",
+    "replacement": "$ZH_HIVE_HP"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 109528,
+    "source": "Interior Complete EP Award: ",
+    "zh": "室内战斗的 EP 奖励：",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 112424,
+    "source": "Debug interior defeated message",
+    "zh": "调试：室内战斗胜利提示",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_DEBUG_INTERIOR_DEFEATED____",
+    "replacement": "$ZH_DEBUG_INTERIOR_DEFEATED____"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 114028,
+    "source": "Upgrade: Transport Heli",
+    "zh": "升级：运输直升机",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_UP_TRANSPORT_______",
+    "replacement": "$ZH_UP_TRANSPORT_______"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 114028,
+    "source": "Upgrade: Gunship Heli",
+    "zh": "升级：武装直升机",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_UP_GUNSHIP_______",
+    "replacement": "$ZH_UP_GUNSHIP_______"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 170208,
+    "source": "MainMission tried to start when one already running",
+    "zh": "已有主线任务正在进行，无法重复开始。",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_MISSION_ALREADY_ACTIVE_________________________",
+    "replacement": "$ZH_MISSION_ALREADY_ACTIVE_________________________"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\startup_fig.p3d.rz",
+    "source_sha256": "1a759f0fdb765ddbe8d01f85c6469486033f85cf6327c9cb7e608f97984e7288",
+    "lua_offset": 3080924,
+    "source": "[MISSION/ERROR] Invalid String sent to SetReminder",
+    "zh": "任务错误：提醒文字无效",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_INVALID_REMINDER_TEXT_________________________",
+    "replacement": "$ZH_INVALID_REMINDER_TEXT_________________________"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 114028,
+    "source": "Upgrade: Tank",
+    "zh": "升级：坦克",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_UP_TANK__",
+    "replacement": "$ZH_UP_TANK__"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\locations\\manhattan_mini\\manhattan_mini_fig.p3d.rz",
+    "source_sha256": "ea037be940274137015e8464dfb3142cebdeadd74c04b29c14d4be24bda56a95",
+    "lua_offset": 114028,
+    "source": "Upgrade: APC",
+    "zh": "升级：装甲输送车",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_UP_APC__",
+    "replacement": "$ZH_UP_APC__"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\missions\\e04m04\\e04m04_fig.p3d.rz",
+    "source_sha256": "9d63d73dc43bb9aeae2f688314474c41323594558fff195af9dc9fef1c3a0210",
+    "lua_offset": 35568,
+    "source": "Health",
+    "zh": "生命值",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_HP",
+    "replacement": "$ZH_HP"
+  },
+  {
+    "archive": "art.rcf",
+    "asset": "\\art\\missions\\e06m05\\e06m05_fig.p3d.rz",
+    "source_sha256": "a14def673e311ab5fc2cedcd8cb45b87517caa85ac8b8fea0a397755dfb07d16",
+    "lua_offset": 45560,
+    "source": "Health",
+    "zh": "生命值",
+    "evidence": "lua-use-context.json / lua-display-call-candidates.json",
+    "key": "ZH_HP",
+    "replacement": "$ZH_HP"
+  }
+]
