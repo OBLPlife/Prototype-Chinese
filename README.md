@@ -2,6 +2,8 @@
 
 适用于 PC 版《虐杀原形》（Prototype 2009）的简体中文补丁，提供菜单、任务、技能、剧情及游戏内对白字幕汉化。
 
+**本汉化严重不同于3DM等国人熟知的汉化，介意请勿使用**
+
 **当前版本：** v0.2.13 · [Releases 下载页面](https://github.com/OBLPlife/Prototype-Chinese/releases)
 
 安装器从玩家本地游戏读取资源，生成并注册中文覆盖文件。
