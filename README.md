@@ -4,7 +4,7 @@
 
 适用于 PC 版《虐杀原形》（Prototype 2009）的简体中文补丁，提供菜单、任务、技能、剧情及游戏内对白字幕汉化。
 
-**当前版本：** v0.2.13（本地资源差分版） · [Releases 下载页面](https://github.com/OBLPlife/Prototype-Chinese/releases)
+**当前版本：** v0.2.13 · [Releases 下载页面](https://github.com/OBLPlife/Prototype-Chinese/releases)
 
 安装器从玩家本地游戏读取资源，生成并注册中文覆盖文件。
 
@@ -45,9 +45,9 @@
 
 汉化补丁可以独立安装，也包含现代兼容补丁相关显示模式选项的中文文本。
 
-## 资源差分与兼容性
+## 安装兼容性
 
-安装包保存译文、必要的字体及界面差分和汉化运行组件。安装时依据玩家本地资源生成中文覆盖文件。
+安装包包含译文、必要的字体、界面调整及汉化运行组件。安装时依据玩家本地资源生成中文覆盖文件。
 
 安装器检查汉化涉及的资源和接口，不以整个游戏文件的哈希作为唯一限制。如果相关资源与制作时不同，会弹出确认提示；对无法匹配的部分保留原文件，因此部分内容可能无法汉化。
 
@@ -57,7 +57,7 @@
 
 主要依赖包括 Windows x64、Python 3.13、fontTools、JDK、FFDec 26.4.0、MSVC x86、Windows SDK、.NET Framework 4.x C# 编译器、Noto 字体和官方 Python 3.13.12 嵌入式运行包。字体来源及校验值见 [catalog/font-sources.json](catalog/font-sources.json)。
 
-构建脚本按工作区布局读取 `source/PrototypeZh/`、`vendor/` 和 `work/` 等目录。完整步骤见 [源码构建说明](packaging/SOURCE.md)，差分安装方式见 [安装包说明](packaging/README.md)。
+构建脚本按工作区布局读取 `source/PrototypeZh/`、`vendor/` 和 `work/` 等目录。完整步骤见 [源码构建说明](packaging/SOURCE.md)，安装方式见 [安装包说明](packaging/README.md)。
 
 ### 仓库结构
 
@@ -67,7 +67,7 @@
 | `runtime/` | C++ 字体、字幕及运行时支持 |
 | `src/` | ActionScript 界面文本源码 |
 | `tools/` | 资源读取、字体生成、译文合并及检查工具 |
-| `packaging/` | 安装器、差分包构建及还原代码 |
+| `packaging/` | 安装器、构建及还原代码 |
 | `licenses/` | 第三方 Noto 字体许可 |
 | `screenshots/` | 游戏截图 |
 
