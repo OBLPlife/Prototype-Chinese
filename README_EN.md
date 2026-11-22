@@ -8,6 +8,8 @@ A Simplified Chinese localization patch for the PC version of **Prototype (2009)
 
 The installer reads the player's local game resources and generates a Chinese localization overlay.
 
+Modern compatibility patch: [Prototype-Modern-Compatibility](https://github.com/OBLPlife/Prototype-Modern-Compatibility)
+
 ## Screenshots
 
 <table>
