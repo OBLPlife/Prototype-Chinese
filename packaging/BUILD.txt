@@ -1,0 +1,22 @@
+Prototype 0.2.13 汉化安装器构建
+
+安装器源码在 packaging，汉化运行库在 runtime，中文译文在 catalog，游戏资源读取与构建工具在 tools。安装器使用 Windows .NET Framework 的 C# 编译器和 Windows 窗体。安装和还原由同一个内置后端执行。原版字幕包的容器结构还包含音频和过场相关数据，因此交付的是完整的已验证汉化覆盖包。
+
+准备 Windows x64、Python 3.13 和 Python 官方的 python-3.13.12-embed-amd64.zip。构建脚本会核对该 ZIP 的 SHA-256。玩家运行成品时无需另外安装 Python。
+https://www.python.org/downloads/release/python-31312/
+
+在源码包的 PrototypeZh 目录执行以下命令。将 PACKAGE_DIR 替换为已经构建好的资源目录，其中应包含 PrototypeZh.rcf、XInput1_3.dll、manifest.json 和三份 Noto 许可。
+
+python packaging/build_release.py payload PACKAGE_DIR payload.zip
+python packaging/build_release.py installer payload.zip python-3.13.12-embed-amd64.zip dist
+python packaging/build_release.py finish dist 0.2.13
+
+重新打包当前发行版时，也可以从现有 EXE 取回已校验的资源。在空目录执行下列命令，之后将 licenses 目录中的三份字体许可复制到 package 目录。将得到的 package 目录用作上面的 PACKAGE_DIR。
+
+python -m zipfile -e Prototype_ZH_CN_Setup.exe extracted
+
+核验成品时，下面的 GAME_DIR 只作为游戏资源的读取来源。TEST_DIR 需已存在，并有容纳游戏资源副本的空间。
+
+python packaging/check_release.py dist/Prototype_ZH_CN_Setup.exe GAME_DIR TEST_DIR result.json
+
+resources.py 的 RCF/P3D 实现保留了 Gibbed.Prototype 的来源与许可说明。字体许可包含在发行 EXE 的 licenses 目录和源码包中。Python 官方许可随内嵌运行环境提供。
