@@ -1,0 +1,14 @@
+LIBRARY XInput1_3
+EXPORTS
+    DllMain=ZhForward0 @1
+    XInputGetState=ZhForward1 @2
+    XInputSetState=ZhForward2 @3
+    XInputGetCapabilities=ZhForward3 @4
+    XInputEnable=ZhForward4 @5
+    XInputGetDSoundAudioDeviceGuids=ZhForward5 @6
+    XInputGetBatteryInformation=ZhForward6 @7
+    XInputGetKeystroke=ZhForward7 @8
+    ZhOrdinal100=ZhForward8 @100 NONAME
+    ZhOrdinal101=ZhForward9 @101 NONAME
+    ZhOrdinal102=ZhForward10 @102 NONAME
+    ZhOrdinal103=ZhForward11 @103 NONAME

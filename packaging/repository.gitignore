@@ -1,0 +1,7 @@
+/build/
+/dist/
+/vendor/
+/work/
+__pycache__/
+*.pyc
+/source/PrototypeZh/packaging/registration.p3d
