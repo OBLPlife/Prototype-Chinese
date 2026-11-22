@@ -141,9 +141,8 @@ def create(exe, archive, folder):
     if count != len(manifest['resources']):
         raise ValueError('Incomplete local RCF expansion')
     print('Expanded and verified %d game resources' % count, flush=True)
-    for name in ('read_contents.py', 'full-installer-contents.txt'):
-        shutil.copyfile(HERE / name, folder / name)
-    for name in ('resource-index.jsonl', 'read_contents.py', 'full-installer-contents.txt'):
+    shutil.copyfile(HERE / 'read_contents.py', folder / 'read_contents.py')
+    for name in ('resource-index.jsonl', 'read_contents.py'):
         record(folder / name, 'disclosure companion')
     index = dict(version=manifest['version'], installer=exe.name, installer_bytes=exe.stat().st_size,
                  installer_sha256=file_digest(exe), pe_file=PE_FILE, pe_bytes=stub_size,
