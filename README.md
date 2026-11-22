@@ -49,7 +49,7 @@
 
 主要依赖包括 Windows x64、Python 3.13、fontTools、JDK、FFDec 26.4.0、MSVC x86、Windows SDK、.NET Framework 4.x C# 编译器、Noto 字体和官方 Python 3.13.12 嵌入式运行包。字体来源及校验值见 [catalog/font-sources.json](catalog/font-sources.json)。
 
-构建脚本按工作区布局读取 `source/PrototypeZh/`、`vendor/` 和 `work/` 等目录。完整步骤见 [源码构建说明](packaging/SOURCE.md)，安装方式见 [安装包说明](packaging/README.md)。
+构建工具见 [tools/](tools/) 和 [packaging/](packaging/) 目录。
 
 ### 仓库结构
 
