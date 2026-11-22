@@ -10,10 +10,16 @@ The installer reads the player's local game resources and generates a Chinese lo
 
 ## Screenshots
 
-| | |
-| :---: | :---: |
-| ![In-game screenshot 1](screenshots/20261122185115_1.jpg) | ![In-game screenshot 2](screenshots/20261122185132_1.jpg) |
-| ![In-game screenshot 3](screenshots/20261122185145_1.jpg) | ![In-game screenshot 4](screenshots/20261122185153_1.jpg) |
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="screenshots/20261122185115_1.jpg" alt="In-game screenshot 1" width="100%"></td>
+    <td align="center" width="50%"><img src="screenshots/20261122185132_1.jpg" alt="In-game screenshot 2" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="screenshots/20261122185145_1.jpg" alt="In-game screenshot 3" width="100%"></td>
+    <td align="center" width="50%"><img src="screenshots/20261122185153_1.jpg" alt="In-game screenshot 4" width="100%"></td>
+  </tr>
+</table>
 
 ## Installation & Restoration
 
