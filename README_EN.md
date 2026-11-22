@@ -4,7 +4,7 @@
 
 A Simplified Chinese localization patch for the PC version of **Prototype (2009)**, covering menus, missions, skills, story content, and in-game dialogue subtitles.
 
-**Current version:** v0.2.13 (local resource-delta edition) · [Releases](https://github.com/OBLPlife/Prototype-Chinese/releases)
+**Current version:** v0.2.13 · [Releases](https://github.com/OBLPlife/Prototype-Chinese/releases)
 
 The installer reads the player's local game resources and generates a Chinese localization overlay.
 
@@ -45,9 +45,9 @@ Allow approximately **1.2 GiB** of free space on the game drive for the generate
 
 The localization can be installed independently. It also includes translations for display-mode options used by the modern compatibility patch.
 
-## Local Resource Deltas & Compatibility
+## Installation Compatibility
 
-The installer distributes translations, required font and UI deltas, and a localization runtime. It reconstructs the Chinese overlay from the player's existing game files.
+The installer includes translations, required fonts, UI adjustments, and a localization runtime. It reconstructs the Chinese overlay from the player's existing game files.
 
 It validates relevant resources and engine interfaces instead of requiring a whole-game file hash match. If the required resources differ, the installer asks for confirmation and preserves content it cannot safely match; some text may therefore remain untranslated.
 
@@ -57,7 +57,7 @@ This repository includes translation catalogs, a C++ localization runtime, Actio
 
 Key dependencies include Windows x64, Python 3.13, fontTools, JDK, FFDec 26.4.0, MSVC x86, Windows SDK, the .NET Framework 4.x C# compiler, Noto fonts, and the official Python 3.13.12 embeddable runtime. Font sources and hashes are documented in [catalog/font-sources.json](catalog/font-sources.json).
 
-The build scripts expect a workspace containing `source/PrototypeZh/`, `vendor/`, and `work/` directories. See the [source build guide](packaging/SOURCE.md) for the build procedure and the [packaging guide](packaging/README.md) for the delta installer.
+The build scripts expect a workspace containing `source/PrototypeZh/`, `vendor/`, and `work/` directories. See the [source build guide](packaging/SOURCE.md) for the build procedure and the [packaging guide](packaging/README.md) for the installer.
 
 ### Repository Layout
 
@@ -67,7 +67,7 @@ The build scripts expect a workspace containing `source/PrototypeZh/`, `vendor/`
 | `runtime/` | C++ font, subtitle, and runtime support |
 | `src/` | ActionScript UI text sources |
 | `tools/` | Resource extraction, font generation, translation merging, and checks |
-| `packaging/` | Installer, delta-package build, and restoration code |
+| `packaging/` | Installer, build, and restoration code |
 | `licenses/` | Third-party Noto font licenses |
 | `screenshots/` | In-game screenshots |
 
