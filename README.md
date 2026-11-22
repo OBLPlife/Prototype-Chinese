@@ -8,6 +8,8 @@
 
 安装器从玩家本地游戏读取资源，生成并注册中文覆盖文件。
 
+现代化兼容补丁请移步：[Prototype-Modern-Compatibility](https://github.com/OBLPlife/Prototype-Modern-Compatibility)
+
 ## 游戏截图
 
 <table>
