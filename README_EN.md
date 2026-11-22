@@ -22,14 +22,14 @@ The installer reads the player's local game resources and generates a Chinese lo
 1. Exit the game. The English-language game resources are recommended.
 2. Download `Prototype_ZH_CN_Setup.exe` from [Releases](https://github.com/OBLPlife/Prototype-Chinese/releases).
 3. Place the installer in the game directory, alongside `cementfiles.p3d`.
-4. Run the installer and select **安装** (Install). Python is bundled with the installer and does not need to be installed separately.
+4. Run the installer and select **安装** (Install).
 5. Launch the game normally after installation.
 
 **Restore**
 
 Exit the game, run the same installer in the game directory, and select **还原** (Restore).
 
-The installer backs up affected files and restores their previous contents when requested. Keep the `PrototypeZh` backup directory intact. Changes made to the same files by other patches after this installation are preserved during restoration.
+The installer backs up affected files and restores their previous contents when requested. Keep the `PrototypeZh` backup directory intact.
 
 Allow approximately **1.2 GiB** of free space on the game drive for the generated localization resources during the first installation. Additional space may be required to back up existing files.
 
@@ -42,14 +42,6 @@ Allow approximately **1.2 GiB** of free space on the game drive for the generate
 - **Text layout:** Adjustments to upgrade menu labels, Evolution Points display, and selected subtitle layouts.
 - **Consistent terminology:** Localized in-universe organizations, abilities, and project names while preserving personal names in credits and real-world company names.
 - **Original visuals:** Street signs, advertisements, posters, and other environmental textures remain unchanged.
-
-The localization can be installed independently. It also includes translations for display-mode options used by the modern compatibility patch.
-
-## Installation Compatibility
-
-The installer includes translations, required fonts, UI adjustments, and a localization runtime. It reconstructs the Chinese overlay from the player's existing game files.
-
-It validates relevant resources and engine interfaces instead of requiring a whole-game file hash match. If the required resources differ, the installer asks for confirmation and preserves content it cannot safely match; some text may therefore remain untranslated.
 
 ## Building from Source
 
