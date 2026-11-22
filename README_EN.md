@@ -2,11 +2,11 @@
 
 # Prototype (2009) Chinese Localization Patch
 
-An unofficial Simplified Chinese localization patch for the PC version of **Prototype (2009)**, covering menus, missions, skills, story content, and in-game dialogue subtitles.
+A Simplified Chinese localization patch for the PC version of **Prototype (2009)**, covering menus, missions, skills, story content, and in-game dialogue subtitles.
 
 **Current version:** v0.2.13 (local resource-delta edition) · [Releases](https://github.com/OBLPlife/Prototype-Chinese/releases)
 
-This project is independent of the modern compatibility and HD enhancement patches. It does not include the game itself. The installer reads the player's local game resources and generates a separate Chinese localization overlay.
+The installer reads the player's local game resources and generates a Chinese localization overlay.
 
 ## Screenshots
 
@@ -40,17 +40,17 @@ Allow approximately **1.2 GiB** of free space on the game drive for the generate
 - **Consistent terminology:** Localized in-universe organizations, abilities, and project names while preserving personal names in credits and real-world company names.
 - **Original visuals:** Street signs, advertisements, posters, and other environmental textures remain unchanged.
 
-The localization can be installed independently. It also includes translations for display-mode options used by the separate modern compatibility patch; that patch and any HD enhancements remain independent projects.
+The localization can be installed independently. It also includes translations for display-mode options used by the modern compatibility patch.
 
 ## Local Resource Deltas & Compatibility
 
-The installer distributes translations, required font and UI deltas, and a localization runtime. It reconstructs the Chinese overlay from the player's existing game files rather than distributing complete original game assets.
+The installer distributes translations, required font and UI deltas, and a localization runtime. It reconstructs the Chinese overlay from the player's existing game files.
 
 It validates relevant resources and engine interfaces instead of requiring a whole-game file hash match. If the required resources differ, the installer asks for confirmation and preserves content it cannot safely match; some text may therefore remain untranslated.
 
 ## Building from Source
 
-This repository includes translation catalogs, a C++ localization runtime, ActionScript UI sources, a C# installer, and Python resource-building utilities. **The repository alone is not sufficient for a complete build:** an owned English-language game installation and external tools and font files are also required.
+This repository includes translation catalogs, a C++ localization runtime, ActionScript UI sources, a C# installer, and Python resource-building utilities. Building requires English-language game resources, external tools, and font files.
 
 Key dependencies include Windows x64, Python 3.13, fontTools, JDK, FFDec 26.4.0, MSVC x86, Windows SDK, the .NET Framework 4.x C# compiler, Noto fonts, and the official Python 3.13.12 embeddable runtime. Font sources and hashes are documented in [catalog/font-sources.json](catalog/font-sources.json).
 
@@ -72,4 +72,3 @@ The build scripts expect a workspace containing `source/PrototypeZh/`, `vendor/`
 
 **This is a preview release. Unknown issues may still exist.**
 
-Third-party fonts remain under their respective licenses. The original game and its assets belong to their respective rights holders.
