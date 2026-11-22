@@ -181,7 +181,7 @@ def source_archive(output):
     """Distribute authored source and translation tables; local builds regenerate all game data."""
     suffixes = {'.as', '.cpp', '.cs', '.def', '.h', '.java', '.js', '.json',
                 '.manifest', '.md', '.ps1', '.py', '.txt'}
-    entries = {'README.md': PROJECT / 'README.md', 'README_EN.md': PROJECT / 'README_EN.md',
+    entries = {'README.md': PROJECT / 'README.md',
                '.gitignore': HERE / 'repository.gitignore',
                '.gitattributes': HERE / 'repository.gitattributes'}
     for folder in ('catalog', 'licenses', 'runtime', 'src', 'tools', 'packaging'):
