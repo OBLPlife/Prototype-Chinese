@@ -49,7 +49,7 @@ This repository includes translation catalogs, a C++ localization runtime, Actio
 
 Key dependencies include Windows x64, Python 3.13, fontTools, JDK, FFDec 26.4.0, MSVC x86, Windows SDK, the .NET Framework 4.x C# compiler, Noto fonts, and the official Python 3.13.12 embeddable runtime. Font sources and hashes are documented in [catalog/font-sources.json](catalog/font-sources.json).
 
-The build scripts expect a workspace containing `source/PrototypeZh/`, `vendor/`, and `work/` directories. See the [source build guide](packaging/SOURCE.md) for the build procedure and the [packaging guide](packaging/README.md) for the installer.
+Build tools are available in [tools/](tools/) and [packaging/](packaging/).
 
 ### Repository Layout
 
