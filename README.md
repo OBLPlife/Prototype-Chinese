@@ -69,6 +69,10 @@
 | `licenses/` | 第三方 Noto 字体许可 |
 | `screenshots/` | 游戏截图 |
 
+## 许可证
+
+本项目采用 [PolyForm Noncommercial License 1.0.0](LICENSE)，允许非商业使用、修改和分发；**禁止未经授权的商业使用及收费倒卖**。
+
 ## 注意事项
 
 **当前版本为预览版，可能仍存在未知问题。**
