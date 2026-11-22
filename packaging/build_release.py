@@ -117,8 +117,9 @@ def source_and_sums(output, version, contents_zip, bilingual=None):
             for name in exe.namelist():
                 if name.startswith('licenses/'):
                     z.writestr('PrototypeZh/' + name, exe.read(name))
-        z.write(output / 'full-installer-guide.txt', 'PrototypeZh/full-installer-guide.txt')
-    files = (output / EXE, source_zip, contents_zip, output / 'full-installer-guide.txt')
+        z.write(PROJECT / 'README.md', 'PrototypeZh/README.md')
+        z.write(PROJECT / 'README_EN.md', 'PrototypeZh/README_EN.md')
+    files = (output / EXE, source_zip, contents_zip)
     (output / 'SHA256SUMS.txt').write_text(''.join(digest(path) + '  ' + path.name + '\n' for path in files),
                                           encoding='utf-8')
 
@@ -145,5 +146,4 @@ if __name__ == '__main__':
     else:
         from export_contents import export_contents
         contents = export_contents(a.output / EXE, a.output / ('Prototype-Chinese-v' + a.version + '-contents.zip'))
-        shutil.copyfile(HERE / 'full-installer-guide.txt', a.output / 'full-installer-guide.txt')
         source_and_sums(a.output, a.version, contents, a.bilingual)
